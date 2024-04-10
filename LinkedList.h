@@ -3,6 +3,7 @@
 
 #include <iostream>
 using namespace std;
+// This is a test. 
 
 //LinkedList Node
 template <typename T>
@@ -10,7 +11,7 @@ class Node {
 public:
 	//데이터를 저장할 변수
 	T data;
-	//노드구조체 이용; 다음노드의 주소를 저장할 포인터
+	//노드구조체 이용;  다음노드의 주소를 저장할 포인터
 	Node<T>* link;
 
 	Node(T element) {
